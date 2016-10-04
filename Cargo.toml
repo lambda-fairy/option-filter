@@ -1,0 +1,11 @@
+[package]
+name = "option-filter"
+version = "1.0.0"
+authors = ["Chris Wong <lambda.fairy@gmail.com>"]
+license = "MIT/Apache-2.0"
+documentation = "https://docs.rs/option-filter"
+repository = "https://github.com/lfairy/option-filter"
+description = "Adds a .filter() method to Option<T>"
+
+[lib]
+path = "lib.rs"
