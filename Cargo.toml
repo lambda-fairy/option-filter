@@ -1,6 +1,6 @@
 [package]
 name = "option-filter"
-version = "1.0.0"
+version = "1.0.1"
 authors = ["Chris Wong <lambda.fairy@gmail.com>"]
 license = "MIT/Apache-2.0"
 documentation = "https://docs.rs/option-filter"
