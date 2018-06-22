@@ -1,10 +1,11 @@
 # option-filter [![Cargo](https://img.shields.io/crates/v/option-filter.svg)](https://crates.io/crates/option-filter)
 
-This crate adds a `.filter()` method to `Option<T>`.
+This crate adds a `.filter()` method to `Option<T>`, for older versions of Rust that don't provide it.
 
-See the [Rust RFCs issue][1] for the motivation behind this crate.
+**Note: [`Option::filter`][std] was added to the standard library in [Rust 1.27][rust]. Unless you need to support older versions of Rust, you do not need to use this crate.**
 
-[1]: https://github.com/rust-lang/rfcs/issues/1485
+[std]: https://doc.rust-lang.org/std/option/enum.Option.html#method.filter
+[rust]: https://github.com/rust-lang/rust/blob/master/RELEASES.md#version-1270-2018-06-21
 
 ## Usage
 

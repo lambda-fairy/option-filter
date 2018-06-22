@@ -1,6 +1,14 @@
 #![deny(missing_docs)]
 
-//! This crate adds a `.filter()` method to `Option<T>`.
+//! This crate adds a `.filter()` method to `Option<T>`, for older
+//! versions of Rust that don't provide it.
+//!
+//! **Note: [`Option::filter`][std] was added to the standard library in
+//! [Rust 1.27][rust]. Unless you need to support older versions of
+//! Rust, you do not need to use this crate.**
+//!
+//! [std]: https://doc.rust-lang.org/std/option/enum.Option.html#method.filter
+//! [rust]: https://github.com/rust-lang/rust/blob/master/RELEASES.md#version-1270-2018-06-21
 //!
 //! To use it, add `option-filter` to your `Cargo.toml`:
 //!
